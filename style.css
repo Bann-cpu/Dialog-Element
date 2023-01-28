@@ -11,6 +11,9 @@
     border-radius: 20px;
     max-width: 400px;
     font-family: var(--textFont);
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;  
 }
 
 .close-btn{
@@ -20,11 +23,11 @@
 
 .sousTitre{
     text-transform: uppercase;
-    font-family: var(--textFont);
 }
 
 #titleModal{
-    font-family: var(--textFont);
     text-transform: uppercase;
     left: 30px;
+    display: flex;
+    justify-content: center;
 }
