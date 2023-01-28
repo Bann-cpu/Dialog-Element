@@ -11,9 +11,6 @@
     border-radius: 20px;
     max-width: 400px;
     font-family: var(--textFont);
-    transition-property: font-size;
-    transition-duration: 4s;
-    transition-delay: 2s;  
 }
 
 .close-btn{
